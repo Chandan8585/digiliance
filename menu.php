@@ -54,17 +54,7 @@
                 </li>
                 <li class="service-list">
     <a href="#" class="menu-anchor">Services</a>
-    <div class="dropdown-service-content">
-        <a href="#" class="menu-anchor">Labour law compliance software</a>
-        <a href="#" class="menu-anchor">Compliance Checklist</a>
-        <a href="#" class="menu-anchor">License Management</a>
-        <a href="#" class="menu-anchor">Notice Management</a>
-        <a href="#" class="menu-anchor">Govt Notifications</a>
-        <a href="#" class="menu-anchor">Register Generator</a>
-        <a href="#" class="menu-anchor">Labour Compliance Audit</a>
-        <a href="#" class="menu-anchor">Govt. Notifications</a>
-        <a href="#" class="menu-anchor">Compliance Calendar</a>
-    </div>
+ 
 </li>
 
 
