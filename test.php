@@ -1,188 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-             /* Floating form styling */
-    
-  
-      
-  
-      .close-btn {
-        position: absolute;
-       
-        top: 10px;
-        right: 15px;
-        cursor: pointer;
-        font-size: 3.5rem;
-        color: black;
-        font-size: 50px;
-      }
-
-  
-      /* Contact form styles */
-      #contactForm {
-        width: 80%;
-        height: 90vh;
-        margin: 1rem;
-        
-        padding: 1rem;
-        color: #C9802F; 
-      }
-  
-      /* Form inputs and textarea */
-      #contactForm input[type="text"],
-      #contactForm input[type="email"],
-      #contactForm textarea {
-        width: 100%;
-        padding: 12px;
-        margin-bottom: 20px;
-        border: none; /* Remove border */
-        border-bottom: 1px solid black; /* Bottom border */
-        background-color: transparent; /* Transparent background */
-        font-size: 16px;
-        transition: border-color 0.3s;
-      }
-  
-      /* Bottom border highlight on focus */
-      #contactForm input[type="text"]:focus,
-      #contactForm input[type="email"]:focus,
-      #contactForm textarea:focus {
-        border-bottom: 2px solid #bca890; /* Highlight bottom border on focus */
-        outline: none; /* Remove default outline */
-        color: black;   
-      }
-  
-      /* Placeholder styling */
-      #contactForm input::placeholder,
-      #contactForm textarea::placeholder {
-        color: gray;    
-      }
-  
-      /* Form submit button */
-      .btn-submit {
-        background-color: gray; /* Elegant button color */
-        color: #ffffff;
-        border: none;
-        padding: 12px;
-        cursor: pointer;
-        /* border-radius: 5px; */
-        font-size: 16px;
-        transition: background-color 0.3s;
-      }
-  
-      .btn-submit:hover {
-        background-color: #d2ab90; /* Lighter shade on hover */
-      }
-  
-      /* Adjust textarea height */
-      #contactForm textarea {
-        height: auto; /* Let CSS determine height */
-        min-height: 80px; /* Minimum height */
-        max-height: 200px; /* Maximum height */
-      }
-      #contactForm p{
-        font-size: 2.5rem;
-        text-align: center;
-      }
-      /* Responsive Design */
-      @media (max-width: 768px) {
-        #contactForm {
-          padding: 20px;
-        }
-      }
- 
- 
-        .floating-form {
-    transform: scale(0); 
-    position: fixed;
-    top: 1rem;
-    left: 32rem;
-    border: 2px solid red;
-    background: rgba(255, 255, 255, 0.95);
-    height: 90vh;
-    width: 32vw;
-    background-color: white;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    /* padding: 20px; */
-    z-index: 10;
-    color: black;
-    transition: transform 0.3s ease; 
-    border-radius: 5px;
-}
-
-
-.form-header{
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+   
+.mega-submenu-wrapper {
     display: flex;
-    justify-content: space-between;
-    border-bottom: 1px solid gray;
-    padding: 0px 20px;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto;
+    padding: 2rem;
+    gap: 1rem;
+    justify-content: center;
+    background-color: #f9f9f9;
+    border-radius: 8px;
 }
-.form-header p{
-      /* font-weight: bold; */
-      font-size: 1.2rem;
+
+/* Header section styling */
+.header-section {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2rem;
 }
-    </style>
+
+.header-section h3 {
+    margin: 0;
+    font-size: 2rem;
+    color: #333;
+}
+
+.header-section p {
+    max-width: 800px;
+    margin: 1rem auto;
+    font-size: 1rem;
+    color: #666;
+}
+
+.cta-button {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    border: 1px solid #0d6efd;
+    background-color: #fff;
+    color: #0d6efd;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #e7f0ff;
+}
+
+.cta-button img {
+    margin-left: 0.5rem;
+    vertical-align: middle;
+}
+
+/* Service column styling */
+.service-column {
+    flex: 1 1 30%;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.service-column h4 {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+    font-weight: 300;
+}
+
+.service-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.service-column ul li {
+    padding: 0.5rem 0;
+    color: #0d6efd;
+    font-weight: 500;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .service-column {
+        flex: 1 1 100%;
+    }
+}
+
+  </style>
 </head>
 <body>
-<button class="btn-contact" id="contactBtn">
-        <img src="https://img.icons8.com/ios-filled/50/ffffff/mail.png" alt="Call"/>
-    </button>
-<div class="floating-form" id="floatingForm">
-  
-  <div class="form-header">
-      <p>Contact Us </p>
-      <span class="close-btn" id="closeForm">&times;</span>
-     
-  </div>
-  <form id="contactForm">
-     
-      <input type="text" id="name" name="name" placeholder="Your name" required>
-      <input type="email" id="email" name="email" placeholder="Your Email address" required>
-      <input type="text" id="phone" name="phone" placeholder="Your Mobile no" required>
-      <textarea id="message" name="message" placeholder="Message" rows="4"></textarea>
-      
-      <button type="submit" class="btn-submit">Send Message</button>
-  </form>
+<div class="mega-submenu-wrapper">
+                    <div class="text-center header-section">
+                        <h3>Spectra Service</h3>
+                        <p>Spectra offers specialized compliance solutions, payroll &amp; HRMS services, and expert HR and finance solutions. With a focus on efficiency and compliance, we tailor our services to meet the unique needs of each client, ensuring smooth operations and regulatory adherence.</p>
+                        <a class="cta-button" href="https://sos.net.in">
+                        Know more
+                        <img src="/images/right_arrow.png" alt="Arrow icon" width="22" height="20">
+                        </a>
+                    </div>
+                    <div class="service-column">
+                        <h4>Compliance Services</h4>
+                        <ul>
+                            <li>Establishment Compliance</li>
+                            <li>Factory Compliance</li>
+                            <li>Contractor Compliance</li>
+                            <li>Registration and Licensing</li>
+                            <li>Audit &amp; Consulting</li>
+                            <li>PoSH Compliance</li>
+                        </ul>
+                    </div>
+                    <div class="service-column">
+                        <h4>HR Services</h4>
+                        <ul>
+                            <li>Payroll &amp; HRMS</li>
+                            <li>Recruitment Services</li>
+                            <li>Staffing Services</li>
+                            <li>HR Audit</li>
+                        </ul>
+                    </div>
+                    <div class="service-column">
+                        <h4>Finance Services</h4>
+                        <ul>
+                            <li>Accounting Services</li>
+                            <li>Business Registration Services</li>
+                            <li>Tax Compliance</li>
+                        </ul>
+                    </div>
+                
 </div>
-
-<script>
-    // Get elements
-const floatingMsgBtn = document.getElementById("contactBtn");
-const buttonGroup = document.querySelector(".button-group");
-const contactBtn = document.getElementById("contactBtn");
-const floatingForm = document.getElementById("floatingForm"); // Reference form element
-const closeFormBtn = document.getElementById("closeForm");
-
-// Track the button visibility state
-let buttonsVisible = false; // Set initial state to hidden
-
-// Toggle WhatsApp and Contact buttons when floating message button is clicked
-floatingMsgBtn.addEventListener('click', () => {
-    buttonsVisible = !buttonsVisible;
-    
-    // Show or hide the button group based on the state
-    if (buttonsVisible) {
-        buttonGroup.style.transform = "scale(1)"; // Show the button group
-    } else {
-        buttonGroup.style.transform = "scale(0)"; // Hide the button group
-    }
-});
-
-// Show the contact form when the contact button is clicked
-contactBtn.addEventListener('click', () => {
-    floatingForm.style.transform = "scale(1)"; // Show the contact form
-    buttonGroup.style.transform = "scale(0)"; // Hide the button group when form opens
-    buttonsVisible = false; // Reset button visibility state
-});
-
-// Close the form when the close button is clicked
-closeFormBtn.addEventListener('click', () => {
-    floatingForm.style.transform = "scale(0)"; // Hide the contact form
-});
-
-</script>
 </body>
 </html>
