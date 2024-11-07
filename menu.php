@@ -135,11 +135,11 @@
                 <li class="menu-list">
                     <a href="#" class="menu-anchor">New Labour Codes</a>
                     <div class="dropdown-content">
-                        <a href="#" class="menu-anchor">Implementation</a>
-                        <a href="#" class="menu-anchor">Key Highlights</a>
-                        <a href="#" class="menu-anchor">Statutory Changes</a>
-                        <a href="#" class="menu-anchor">Consequences</a>
-                        <a href="#" class="menu-anchor">FAQs</a>
+                        <a href="./implementation.php" class="menu-anchor">Implementation</a>
+                        <a href="./new-labour-codes.php" class="menu-anchor">Key Highlights</a>
+                        <a href="./new-labour-codes.php" class="menu-anchor">Statutory Changes</a>
+                        <a href="./new-labour-codes.php" class="menu-anchor">Consequences</a>
+                        <a href="./new-labour-codes.php" class="menu-anchor">FAQs</a>
                     </div>
                 </li>
                 <li class="menu-list"><a href="#" class="menu-anchor">Digital Library</a>
