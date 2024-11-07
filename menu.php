@@ -13,9 +13,10 @@
    .mega-submenu-wrapper {
     position: absolute;
     width: 100vw;
-    height: 80vh;
+    height: 85vh;
     top: 48px;
     left: 0;
+    z-index: 100;
     /* border: 2px solid red; */
     display: none;
        /* display: flex; */
