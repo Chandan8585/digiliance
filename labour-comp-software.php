@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./index.css">
+    <style>
+        .labour-law-compliance_roundClockWrap__yUwC8 .labour-law-compliance_roundClockBlock__OF65I {
+    background: rgba(10, 128, 255, .1);
+}
+    </style>
 </head>
 <body>
     <?php
@@ -244,7 +249,7 @@
                                 <p class="mt-3"><a class="d-flex align-items-center"
                                         href="https://digilance-website.vercel.app/digital-library/acts-and-rules">Get
                                         Access<img alt="icon"
-                                            src="./images/digital_library.webp"
+                                            src="./images/arrow-right.webp"
                                             width="18" height="15" decoding="async" data-nimg="1" class="ms-2"
                                             loading="lazy" style="color: transparent;"></a></p>
                             </div>
@@ -269,8 +274,7 @@
                                     decisions.</p>
                                 <p class="mt-3"><a class="d-flex align-items-center"
                                         href="/product/labour-law-compliance#!">Coming Soon<img alt="icon"
-                                            srcset="/_next/image?url=%2Fimages%2Farrow-right.png&amp;w=32&amp;q=75 1x, /_next/image?url=%2Fimages%2Farrow-right.png&amp;w=48&amp;q=75 2x"
-                                            src="/_next/image?url=%2Fimages%2Farrow-right.png&amp;w=48&amp;q=75"
+                                            src="./images/arrow-right.webp"
                                             width="18" height="15" decoding="async" data-nimg="1" class="ms-2"
                                             loading="lazy" style="color: transparent;"></a></p>
                             </div>
@@ -343,23 +347,19 @@
             <div class="row align-items-end rounded-4 pt-3 pt-lg-5 labour-law-compliance_roundClockBlock__OF65I">
                 <div class="col-sm-6 px-sm-5 pb-4">
                     <div class="w-100 pb-5 pt-3"><img alt="icon"
-                            srcset="/_next/image?url=%2Fimages%2F24and7.png&amp;w=64&amp;q=75 1x, /_next/image?url=%2Fimages%2F24and7.png&amp;w=128&amp;q=75 2x"
-                            src="/_next/image?url=%2Fimages%2F24and7.png&amp;w=128&amp;q=75" width="50" height="45"
+                            src="./icon/24and7.webp" width="50" height="45"
                             decoding="async" data-nimg="1" loading="lazy" style="color: transparent;"></div>
                     <h3 class="fw-bold">Round the clock help <br> is ready and waiting</h3>
                     <p class="m-0 my-4">Organisations can count on us for 24/7/365 support.</p>
                     <div class="w-100 d-flex"><label class="m-0"><img alt="icon"
-                                srcset="/_next/image?url=%2Fimages%2Fcheck_icon_black.png&amp;w=32&amp;q=75 1x, /_next/image?url=%2Fimages%2Fcheck_icon_black.png&amp;w=48&amp;q=75 2x"
-                                src="/_next/image?url=%2Fimages%2Fcheck_icon_black.png&amp;w=48&amp;q=75" width="17"
+                                src="./icon/check_icon_black.webp" width="17"
                                 height="18" decoding="async" data-nimg="1" class="me-2" loading="lazy"
                                 style="color: transparent;">Video tutorials</label><label class="px-4 m-0"><img
                                 alt="icon"
-                                srcset="/_next/image?url=%2Fimages%2Fcheck_icon_black.png&amp;w=32&amp;q=75 1x, /_next/image?url=%2Fimages%2Fcheck_icon_black.png&amp;w=48&amp;q=75 2x"
-                                src="/_next/image?url=%2Fimages%2Fcheck_icon_black.png&amp;w=48&amp;q=75" width="17"
+                                src="./icon/check_icon_black.webp" width="17"
                                 height="18" decoding="async" data-nimg="1" class="me-2" loading="lazy"
                                 style="color: transparent;">Live chat</label><label class="m-0"><img alt="icon"
-                                srcset="/_next/image?url=%2Fimages%2Fcheck_icon_black.png&amp;w=32&amp;q=75 1x, /_next/image?url=%2Fimages%2Fcheck_icon_black.png&amp;w=48&amp;q=75 2x"
-                                src="/_next/image?url=%2Fimages%2Fcheck_icon_black.png&amp;w=48&amp;q=75" width="17"
+                                src="./icon/check_icon_black.webp" width="17"
                                 height="18" decoding="async" data-nimg="1" class="me-2" loading="lazy"
                                 style="color: transparent;">Help center</label></div>
                 </div>
