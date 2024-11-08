@@ -226,8 +226,7 @@
                                             <div><a class="btn btn-outline-primary py-2 me-4 bg-white text-primary"
                                                     style="color:#0d6efd !important" href="https://sos.net.in">Know
                                                     more<img alt="img"
-                                                        srcset="/_next/image?url=%2Fimages%2Fright_arrow.png&amp;w=32&amp;q=75 1x, /_next/image?url=%2Fimages%2Fright_arrow.png&amp;w=48&amp;q=75 2x"
-                                                        src="/_next/image?url=%2Fimages%2Fright_arrow.png&amp;w=48&amp;q=75"
+                                                        src="./images/arrow-right.webp"
                                                         width="22" height="20" decoding="async" data-nimg="1"
                                                         loading="lazy" style="color:transparent;margin-left:5px"></a>
                                             </div>
