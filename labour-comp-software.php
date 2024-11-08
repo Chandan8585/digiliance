@@ -150,8 +150,7 @@
                     <div
                         class=" active w-100 align-items-center border chip-card d-flex p-2 justify-content-center rounded-4">
                         <img alt="icon"
-                            srcset="/_next/image?url=%2Fimages%2Fabout_icon1.png&amp;w=48&amp;q=75 1x, /_next/image?url=%2Fimages%2Fabout_icon1.png&amp;w=96&amp;q=75 2x"
-                            src="/_next/image?url=%2Fimages%2Fabout_icon1.png&amp;w=96&amp;q=75" width="45" height="45"
+                            src="./icon/about_icon1.webp" width="45" height="45"
                             decoding="async" data-nimg="1" loading="lazy" style="color: transparent;">
                         <h6 class="m-0 ms-3">Manage Compliance</h6>
                     </div>
@@ -160,8 +159,7 @@
                     <div
                         class=" false w-100 align-items-center border chip-card d-flex p-2 justify-content-center rounded-4">
                         <img alt="icon"
-                            srcset="/_next/image?url=%2Fimages%2Fabout_icon2.png&amp;w=48&amp;q=75 1x, /_next/image?url=%2Fimages%2Fabout_icon2.png&amp;w=96&amp;q=75 2x"
-                            src="/_next/image?url=%2Fimages%2Fabout_icon2.png&amp;w=96&amp;q=75" width="45" height="45"
+                            src="./icon/about_icon2.webp" width="45" height="45"
                             decoding="async" data-nimg="1" loading="lazy" style="color: transparent;">
                         <h6 class="m-0 ms-3">License Management</h6>
                     </div>
@@ -170,8 +168,7 @@
                     <div
                         class=" false w-100 align-items-center border chip-card d-flex p-2 justify-content-center rounded-4">
                         <img alt="icon"
-                            srcset="/_next/image?url=%2Fimages%2Fabout_icon3.png&amp;w=48&amp;q=75 1x, /_next/image?url=%2Fimages%2Fabout_icon3.png&amp;w=96&amp;q=75 2x"
-                            src="/_next/image?url=%2Fimages%2Fabout_icon3.png&amp;w=96&amp;q=75" width="45" height="45"
+                            src="./icon/about_icon3.webp" width="45" height="45"
                             decoding="async" data-nimg="1" loading="lazy" style="color: transparent;">
                         <h6 class="m-0 ms-3">Document Repository</h6>
                     </div>
@@ -280,8 +277,7 @@
                         </div>
                     </div>
                     <div class="col-sm-6 text-end labour-law-compliance_submitComplncRightImg__miFm6"><img alt="icon"
-                            srcset="/_next/image?url=%2Fimages%2Fautomated_notify_img.jpg&amp;w=640&amp;q=75 1x, /_next/image?url=%2Fimages%2Fautomated_notify_img.jpg&amp;w=1200&amp;q=75 2x"
-                            src="/_next/image?url=%2Fimages%2Fautomated_notify_img.jpg&amp;w=1200&amp;q=75" width="560"
+                            src="./images/automated_notify_img.webp" width="560"
                             height="300" decoding="async" data-nimg="1" loading="lazy"
                             style="color: transparent; width: 90%;"></div>
                 </div>
@@ -336,8 +332,7 @@
                     </ul>
                 </div>
                 <div class="col-sm-6 labour-law-compliance_stayOrganizedImg__8kKEn"><img alt="icon"
-                        srcset="/_next/image?url=%2Fimages%2Fstay-organized_img.jpg&amp;w=640&amp;q=75 1x, /_next/image?url=%2Fimages%2Fstay-organized_img.jpg&amp;w=1200&amp;q=75 2x"
-                        src="/_next/image?url=%2Fimages%2Fstay-organized_img.jpg&amp;w=1200&amp;q=75" width="545"
+                        src="./images/stay-organized_img.webp" width="545"
                         height="350" decoding="async" data-nimg="1" loading="lazy"
                         style="color: transparent; width: 100%;"></div>
             </div>
@@ -369,8 +364,7 @@
                                 style="color: transparent;">Help center</label></div>
                 </div>
                 <div class="col-sm-6 text-end pe-5"><img alt="icon"
-                        srcset="/_next/image?url=%2Fimages%2Fcall_center_img.png&amp;w=384&amp;q=75 1x, /_next/image?url=%2Fimages%2Fcall_center_img.png&amp;w=640&amp;q=75 2x"
-                        src="/_next/image?url=%2Fimages%2Fcall_center_img.png&amp;w=640&amp;q=75" width="280"
+                        src="./images/call_center_img.webp" width="280"
                         height="350" decoding="async" data-nimg="1" loading="lazy" style="color: transparent;"></div>
             </div>
         </div>
@@ -384,8 +378,7 @@
                     <p class="m-0"></p>
                 </div>
                 <div class="col-sm-6 text-end labour-law-compliance_helpRightImg__MdQIw"><img alt="icon"
-                        srcset="/_next/image?url=%2Fimages%2Fcustomer_help.png&amp;w=640&amp;q=75 1x, /_next/image?url=%2Fimages%2Fcustomer_help.png&amp;w=1200&amp;q=75 2x"
-                        src="/_next/image?url=%2Fimages%2Fcustomer_help.png&amp;w=1200&amp;q=75" width="545"
+                        src="./images/customer_help.webp" width="545"
                         height="500" decoding="async" data-nimg="1" loading="lazy"
                         style="color: transparent; width: 90%;"></div>
             </div>
